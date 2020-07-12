@@ -1,0 +1,34 @@
+<!DOCTYPE html >
+<html ng-app="fbAnalyzer">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta content="IE=edge" http-equiv="X-UA-Compatible">
+        <title>fb Analysis</title>
+        <meta content="facebook analysis" name="description">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+
+        <!-- AngularJS -->
+        <script src="library/node_modules/angular/angular.js"></script>
+        <script src="library/node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
+
+        <!-- Optional JavaScript -->
+        <!-- css, jQuery first, then Popper.js, then Bootstrap JS -->
+        <link rel="stylesheet" href="library/node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <script src="library/node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="library/node_modules/popper.js/dist/popper.min.js"></script>
+        <script src="library/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+        <script src="app.js"></script>
+        <script src="js/common/routes.js"></script>
+        <script src="js/common/services.js"></script>
+        <script src="js/common/directives.js"></script>
+        <script src="js/common/filters.js"></script>
+        <script src="js/home/home.component.js"></script>
+        <script src="js/list/list.component.js"></script>
+        <script src="js/operations/operations.component.js"></script>
+    </head>
+    <body>
+        <home-component></home-component>
+    </body>
+</html>
