@@ -1,0 +1,24 @@
+{
+  "name": "fbAnalysis",
+  "version": "1.0.0",
+  "description": "Analysis app for facebook",
+  "readme": "README.md",
+  "main": "",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcos-villa/fbAnalysis.git"
+  },
+  "author": "Marcos Villa",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.7.8",
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.1",
+    "angular-ui-router": "^1.0.26"
+  }
+}
